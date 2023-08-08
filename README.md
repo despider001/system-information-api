@@ -34,7 +34,7 @@ The System Information API is a Node.js application that provides information ab
 
 1. Create a `.env` file in the project root directory and set the following environment variables:
 
-   ```env
+```env
 # Database configuration
 DATABASE_TYPE=mongodb
 MONGODB_URI=<mongodb-uri-goes-here>
@@ -47,8 +47,7 @@ RUNNING_PROCESS_COLLECTION=runningProcess
 # Server configuration
 PORT=3000
 TZ=UTC
-
-   ```
+```
 
    Adjust the MongoDB URI and port as needed.
 
